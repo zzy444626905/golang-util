@@ -2,7 +2,6 @@ package errutil
 
 import (
 	"github.com/pkg/errors"
-	"runtime/debug"
 )
 
 func PanicMessage(message string) {
